@@ -88,15 +88,6 @@ cd GameOFLife-ThizonRomain-CDOF4
 npm install
 ```
 
-4. Use a process manager like PM2 to keep the application running:
-
-```bash
-npm install -g pm2
-pm2 start app.js --name "GameOfLife"
-```
-
-5. Optional: Set up a proxy server (e.g., Nginx) to expose the application.
-
 ## Built With
 
 * [Node.js](https://nodejs.org/) - JavaScript runtime
