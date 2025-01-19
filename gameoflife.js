@@ -93,7 +93,6 @@ game.randomizeGrid();
 
 // Run the game in intervals of 700ms
 setInterval(() => {
-  console.clear(); // Clear the console for a cleaner display
   game.displayGrid(); // Display the current grid state
   game.nextGeneration(); // Calculate the next generation
 }, 700);
