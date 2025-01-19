@@ -20,7 +20,7 @@ class GameOfLife {
       this.grid.forEach(row => {
         const line = row.map(cell => (cell ? "□" : " ")).join("");
         console.log(line);
-      })
+      });
     }
   
     nextGeneration() {
