@@ -10,7 +10,7 @@ These instructions will help you clone and run the project on your local machine
 
 Here is what you need to install to run the project:
 
-- Node.js (v16 or higher)
+- Node.js (v16 or higher) click [here](https://nodejs.org/dist/v22.13.0/node-v22.13.0-x64.msi) to dowload the pre-built Windows x64 version (from [nodejs official website](https://nodejs.org/en/download))
 - npm (comes with Node.js)
 - A terminal
 
@@ -58,34 +58,6 @@ To run the tests:
 
 ```bash
 npm test
-```
-
-### Code Style Tests
-
-These tests check if the code follows the style guidelines (e.g., using ESLint).
-
-To run ESLint:
-
-```bash
-npm run lint
-```
-
-## Deployment
-
-To deploy this project on a live server:
-
-1. Make sure Node.js and npm are installed on the server.
-2. Clone the project on the server:
-
-```bash
-git clone https://github.com/username/GameOFLife-ThizonRomain-CDOF4.git
-cd GameOFLife-ThizonRomain-CDOF4
-```
-
-3. Install the dependencies:
-
-```bash
-npm install
 ```
 
 ## Built With
